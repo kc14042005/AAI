@@ -1,0 +1,183 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Is anyone there?",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello! I am CampusBot. How can I help you today?",
+        "Hi there! I am CampusBot. Ask me about admissions, fees, courses, exams, library or placements."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you soon",
+        "I am leaving now",
+        "Have a nice day"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you soon. All the best!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thank you so much",
+        "That was helpful",
+        "Great, thanks a lot",
+        "Much appreciated"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses do you offer?",
+        "Which programs are available?",
+        "Tell me about the courses",
+        "Do you have MSc IT?",
+        "List the degrees offered",
+        "Which subjects are taught in MSc IT?",
+        "Is BSc computer science available?"
+      ],
+      "responses": [
+        "We offer BSc IT, BSc CS, MSc IT and MSc Data Science. MSc IT includes Applied AI, Data Science, Cloud Computing and Blockchain."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the fee structure?",
+        "How much are the fees for MSc IT?",
+        "Tell me the course fees",
+        "What is the annual fee?",
+        "Can I pay the fees online?",
+        "How many installments are there for fees?",
+        "What is the tuition fee?"
+      ],
+      "responses": [
+        "The MSc IT fee is Rs 45,000 per year, payable online in two installments (July and December)."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How do I apply for admission?",
+        "What is the admission process?",
+        "When do admissions start?",
+        "What documents are required for admission?",
+        "Is there an entrance test?",
+        "What is the last date to apply?",
+        "Eligibility for MSc IT admission"
+      ],
+      "responses": [
+        "Admissions open in June. Apply online on the college portal with your marksheets, ID proof and passport-size photo. Merit lists are published in July."
+      ]
+    },
+    {
+      "tag": "exam",
+      "patterns": [
+        "When are the exams held?",
+        "Exam schedule please",
+        "When will the results be declared?",
+        "How do I get my hall ticket?",
+        "What is the exam pattern?",
+        "When does the exam timetable come out?",
+        "How many marks are needed to pass?",
+        "Tell me about semester exams"
+      ],
+      "responses": [
+        "Semester exams are held in November and April. Hall tickets are available on the portal one week before the exam; results are declared within 45 days."
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns": [
+        "What are the college timings?",
+        "When does the college open?",
+        "What time do lectures end?",
+        "Is the college open on Saturday?",
+        "Tell me the lecture timings",
+        "What are the office hours?"
+      ],
+      "responses": [
+        "The college runs from 8:00 AM to 5:00 PM, Monday to Saturday. The office is open from 10:00 AM to 4:00 PM."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "What are the library timings?",
+        "Can I borrow books from the library?",
+        "How many books can I issue?",
+        "Is there a reading room?",
+        "Does the library have e-books?",
+        "What is the fine for late return of books?",
+        "Where is the library located?"
+      ],
+      "responses": [
+        "The library is open from 8:30 AM to 5:00 PM. Students can issue up to 3 books for 14 days. E-books are available on the portal."
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "Is there a placement cell?",
+        "Which companies visit for placements?",
+        "What is the average package?",
+        "Tell me about campus placements",
+        "Do you provide internships?",
+        "How many students got placed last year?",
+        "Is placement training given?"
+      ],
+      "responses": [
+        "The placement cell conducts training and campus drives every year. Companies from IT, banking and analytics visit the campus. Internships are offered in the final year."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact the college?",
+        "What is the office email address?",
+        "Tell me the contact number",
+        "Where is the college located?",
+        "Whom should I contact for help?",
+        "What is the college address?",
+        "Is there a helpline number?"
+      ],
+      "responses": [
+        "You can reach the college office at 022-0000-0000 or office@college.edu. The campus is in Mulund, Mumbai."
+      ]
+    },
+    {
+      "tag": "out_of_scope",
+      "patterns": [
+        "What is the weather in Delhi?",
+        "Tell me a joke",
+        "Who won the cricket match?",
+        "Recommend a good movie",
+        "What is the capital of France?"
+      ],
+      "responses": [
+        "Sorry, I can only answer questions about the college: admissions, fees, courses, timings, library, exams, placements and contact details."
+      ]
+    }
+  ]
+}
